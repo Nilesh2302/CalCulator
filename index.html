@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html la\ng="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<div class="z">
+
+    <h1>Calculator</h1>
+
+    <textarea name="input" id="input" cols="40" rows="7"></textarea><br>
+    <button id="a" onclick="aInput('1')">1</button>
+    <button id="b" onclick="aInput('2')">2</button>
+    <button id="c" onclick="aInput('3')">3</button>
+    <button id="k" onclick="aInput('-')">-</button><br>
+    <button id="d" onclick="aInput('4')">4</button>
+    <button id="e" onclick="aInput('5')">5</button>
+    <button id="f" onclick="aInput('6')">6</button>
+    <button id="l" onclick="aInput('+')">+</button><br>
+    <button id="g" onclick="aInput('7')">7</button>
+    <button id="h" onclick="aInput('8')">8</button>
+    <button id="i" onclick="aInput('9')">9</button>
+    <button id="m" onclick="aInput('*')">*</button><br>
+    <button id="j" onclick="aInput('0')">0</button>
+    <button id="n" onclick="aInput('/')">/</button>
+    <button id="o" onclick="calculate()">=</button>
+    <button id="r" onclick="aclear()">C</button><br><br>
+    <textarea name="output" id="output" cols="40" rows="5"></textarea><br>
+</div>
+
+
+<script src="logic.js"></script>
+
+<body>
+
+</body>
+
+</html>
