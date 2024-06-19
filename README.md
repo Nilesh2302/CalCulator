@@ -4,7 +4,7 @@ Welcome to the Calculator Project! This simple web application performs basic ar
 
 🚀 Live Demo
 
-Check out the live demo here.
+Check out the live demo [here](https://nilesh2302.github.io/CalCulator/).
 
 📝 Instructions
 
